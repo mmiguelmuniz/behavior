@@ -1,0 +1,21 @@
+rules_version = '2';
+
+// Fotos dos alunos: qualquer pessoa da equipe com acesso ativo pode VER.
+// Ninguém grava pelo navegador: envio e remoção só pelas functions (ADMIN).
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isStaff() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower().matches('.*@ear[.]com[.]br$')
+        && firestore.exists(/databases/(default)/documents/staff/$(request.auth.token.email.lower()))
+        && firestore.get(/databases/(default)/documents/staff/$(request.auth.token.email.lower())).data.active == true;
+    }
+    match /student-photos/{studentId} {
+      allow get: if isStaff();
+    }
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ear-student-support-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm --prefix functions install && npm --prefix web install",
+    "emulators": "npm --prefix functions run build && firebase emulators:start --project demo-ear-hub",
+    "seed": "tsx scripts/seed-emulator.ts",
+    "dev": "npm --prefix web run dev",
+    "test": "npm run test:functions && npm run test:rules",
+    "test:functions": "npm --prefix functions test",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-ear-hub \"vitest run tests\"",
+    "import-roster": "tsx scripts/import-roster.ts",
+    "deploy": "firebase deploy",
+    "import-v88": "tsx scripts/import-v88.ts"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.1",
+    "@types/node": "^22.20.5",
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.1",
+    "firebase-tools": "^13.29.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

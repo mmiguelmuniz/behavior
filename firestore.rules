@@ -1,0 +1,77 @@
+rules_version = '2';
+
+// Regras do Student Support Hub.
+// Princípios:
+//  - Nenhum cliente escreve em nada. Toda escrita vem do Admin SDK (functions e scripts).
+//  - O acesso é decidido aqui, no servidor, e não pela interface.
+//  - As regras valem por documento inteiro: por isso as contagens ficam em
+//    coleções separadas, que só o ADMIN lê.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.lower().matches('.*@ear[.]com[.]br$');
+    }
+    function staffPath() {
+      return /databases/$(database)/documents/staff/$(request.auth.token.email.lower());
+    }
+    function isStaff() {
+      return signedIn() && exists(staffPath()) && get(staffPath()).data.active == true;
+    }
+    function isAdmin() {
+      return isStaff() && get(staffPath()).data.role == 'admin';
+    }
+
+    // Cadastro de quem pode usar o sistema (chave = e-mail em minúsculas).
+    match /staff/{email} {
+      // Cada pessoa lê o próprio cadastro (para o app saber o papel dela).
+      allow get: if isAdmin() || (signedIn() && email == request.auth.token.email.lower());
+      allow list: if isAdmin();
+    }
+
+    // Configuração pública para a equipe (ex.: e-mail do Secondary Office).
+    match /config/app {
+      allow get: if isStaff();
+    }
+
+    // Busca: qualquer membro autorizado vê nome, ano, nomes dos responsáveis
+    // e se há contato cadastrado (sem os e-mails).
+    match /students/{studentId} {
+      allow read: if isStaff();
+    }
+
+    // E-mails de responsáveis e do aluno: só ADMIN lê direto.
+    // Para os demais, o rascunho do Gmail é montado pelo servidor (function createlog).
+    match /studentContacts/{studentId} {
+      allow read: if isAdmin();
+    }
+    match /studentLegacy/{studentId} {
+      allow read: if isAdmin();
+    }
+
+    // Contagens e totais: somente ADMIN.
+    match /studentCounts/{studentId} {
+      allow read: if isAdmin();
+    }
+    match /stats/{docId} {
+      allow read: if isAdmin();
+    }
+
+    // Registros (logs): leitura direta só para ADMIN.
+    // Professores veem o histórico pela function liststudentlogs, que confere as turmas.
+    // Criação e anulação só pelas functions (validam autor, data e permissões).
+    match /logs/{logId} { allow read: if isAdmin(); }
+    match /sections/{sectionId} { allow read: if isAdmin(); }
+    // Feedback da equipe: envio pela function sendfeedback; leitura só ADMIN.
+    match /feedback/{id} { allow read: if isAdmin(); }
+    // Auditoria de registros apagados (sem o texto): só ADMIN.
+    match /deletedLogs/{id} { allow read: if isAdmin(); }
+
+    // Qualquer outra coisa: negado. Escrita: sempre negada para clientes.
+    match /{document=**} {
+      allow write: if false;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "origin": [
+      "https://behavior.ear.com.br",
+      "https://ear-student-hub.web.app",
+      "https://ear-student-hub.firebaseapp.com",
+      "http://127.0.0.1:5173"
+    ],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]

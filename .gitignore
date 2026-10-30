@@ -1,0 +1,15 @@
+node_modules/
+functions/lib/
+web/dist/
+.firebase/
+*.log
+.env
+.env.*
+!.env.example
+!web/.env.development
+# Nunca versionar dados reais ou chaves
+*.csv
+!scripts/templates/*.csv
+*service-account*.json
+*-credentials*.json
+.emulator-data/

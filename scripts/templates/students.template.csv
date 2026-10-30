@@ -1,0 +1,3 @@
+student_id;name;grade;parent_emails;student_email;section_ids
+S0001;Ana Exemplo;6;responsavel1@example.com|responsavel2@example.com;;6A-ENG|6A-MATH
+S0002;Bruno Modelo;7;;;7B-ENG

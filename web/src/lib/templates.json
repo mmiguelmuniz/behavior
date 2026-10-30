@@ -1,0 +1,162 @@
+{
+  "en": [
+    {
+      "id": "good-perseverance",
+      "category": "good",
+      "title": "Perseverance and growth",
+      "text": "Dear parents,\n\nI’m happy to share that {{name}} showed persistence during [lesson/task] on [date]. When the first strategy was challenging, {{name}} [describe what you observed: tried another approach, asked for help, or applied feedback] and made progress on [specific part of the work]. This effort helped {{name}} develop [skill] and contributed to a focused classroom. We recognized the effort and discussed how to use the same strategy in the next activity. Please celebrate this initiative at home; I’ll continue encouraging {{name}} to take on appropriate challenges and ask for support when needed. Thank you for your partnership.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "good-kindness",
+      "category": "good",
+      "title": "Kindness and inclusion",
+      "text": "Dear parents,\n\nI’d like to share a positive choice {{name}} made during [class/activity] on [date]. I observed {{name}} [describe a concrete action: invite someone to join, offer help, or listen to a different idea]. This contributed to [observable effect on the group] and showed consideration for classmates. We talked about how small actions help everyone feel welcome and ready to learn. I thanked {{name}} for setting this example and hope we can continue building on it. Please reinforce the importance of treating each person with care. Thank you for supporting this kind and thoughtful behavior at home.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "good-collaboration",
+      "category": "good",
+      "title": "Collaboration and leadership",
+      "text": "Dear parents,\n\nI want to recognize {{name}}’s contribution to [project/activity] on [date]. {{name}} [describe observed actions, such as sharing materials, explaining an idea patiently, or helping the group organize] and made room for classmates to contribute. As a result, the group [describe concrete progress or outcome]. We discussed how respectful leadership and collaboration support everyone’s learning. It was great to see {{name}} put these skills into practice. Thank you for encouraging responsibility and participation at home; I’ll continue giving {{name}} opportunities to contribute in a positive way.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-physical-safety",
+      "category": "behavior",
+      "title": "Physical aggression or safety concern",
+      "text": "Dear parents,\n\nI’m writing to inform you about a safety incident involving {{name}} during [activity/location] on [date]. I observed [describe the physical action objectively, without interpretation or labels]. I stopped the interaction, checked that students were safe, and followed [school/class procedure]. I then spoke with {{name}} about the impact of the action and safe ways to express frustration or resolve a disagreement. The next step will be [support, conversation, or follow-up] by [timeframe]. Please talk with {{name}} about keeping everyone’s physical space safe. I’m available so we can coordinate consistent support.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-phone",
+      "category": "behavior",
+      "title": "Smartphone use during class",
+      "text": "Dear parents,\n\nI’d like to share an incident from [class/activity] on [date]. I saw {{name}} using a smartphone to [describe the observed use] while the class was working on [task]. I reminded {{name}} of our phone expectation and asked that the device be put away; [describe the response and whether work resumed]. The use interrupted [concrete effect on participation or learning]. We will review when a phone may be used and where it should be kept during class. Please reinforce this expectation with {{name}} at home. Thank you for your support; I’m happy to clarify the classroom procedure.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-class-disruption",
+      "category": "behavior",
+      "title": "Disruptions during class",
+      "text": "Dear parents,\n\nDuring [class] on [date], {{name}} interrupted the lesson several times by [describe observable actions, such as speaking while someone else was explaining or calling to classmates]. I gave [number] reminders and offered [strategy/support] to help {{name}} participate at the appropriate time. After the redirection, {{name}} [describe the response]. The interruptions affected [instructional time, focus, or group participation]. We will practice ways to ask to speak and stay engaged during explanations. Please talk with {{name}} about this goal; I’ll check in on progress during the next class.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-activity-disruption",
+      "category": "behavior",
+      "title": "Disrupting a group activity",
+      "text": "Dear parents,\n\nI’m contacting you about [activity, lab, presentation, or event] on [date]. During the activity, {{name}} [describe the observed behavior and when it occurred]. I gave [direction/reminder] and explained how the action affected [safety, instructions, or the group’s participation]. {{name}} then [describe the response and what happened next]. We reviewed how following directions helps everyone take part. At the next activity, {{name}} will be expected to [clear next step]. Please reinforce this expectation at home. I’ll continue to support {{name}} and share how the next opportunity goes.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-disrespect",
+      "category": "behavior",
+      "title": "Disrespectful communication",
+      "text": "Dear parents,\n\nI’m writing about an interaction during [class/activity] on [date]. When [brief context], {{name}} [record the specific words or actions, when appropriate, rather than using a broad label]. I explained how the communication affected [classmate, staff member, or activity] and gave {{name}} a chance to respond. {{name}} then [describe the response, reflection, or repair]. We reviewed respectful ways to disagree, ask for help, and handle frustration. The next step will be [conversation, reflection, or follow-up]. Please talk with {{name}} about using respectful language even in difficult moments. I’m available so we can support this goal together.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-computer",
+      "category": "behavior",
+      "title": "Computer use without permission",
+      "text": "Dear parents,\n\nDuring [class/activity] on [date], I observed {{name}} using the computer to access [site, application, or action observed] without permission for that task. I reminded {{name}} of the instruction and asked them to return to the approved resource. {{name}} [describe the response and whether work resumed]. We discussed digital responsibility, device safety, and the expectation to ask before opening other sites or programs. At the next activity, {{name}} will [specific expectation]. Please reinforce this agreement at home. I’ll continue monitoring device use and provide guidance as needed.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "behavior-peer-comments",
+      "category": "behavior",
+      "title": "Comments that affected a classmate",
+      "text": "Dear parents,\n\nI want to inform you about a peer interaction during [class/break/activity] on [date]. I heard {{name}} say [describe the specific comment or type of comment] to [a classmate/the group]. I intervened, checked in with the students involved, and restated our expectation that everyone can participate without teasing or targeted remarks. {{name}} [describe the response, reflection, or repair]. We’ll monitor future interactions and practice appropriate ways to share opinions or resolve conflict. Please talk with {{name}} about how words affect others. I’m available to coordinate support if helpful.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "academic-integrity",
+      "category": "academic",
+      "title": "Academic integrity and possible cheating",
+      "text": "Dear parents,\n\nI’m writing about a possible cheating or unauthorized assistance concern involving {{name}}’s [assessment/assignment] on [date]. During [specific part], I observed [objective fact, such as opening an unapproved website or consulting another student’s work]. I spoke with {{name}} privately and invited them to explain what happened. We are reviewing the information and will follow [school/class process]; this message records a concern, not a final determination. We reviewed the expectation to complete independent work and how to ask for help appropriately. Please speak with {{name}} about academic honesty. I’ll follow up after [next step/date] and welcome a conversation.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "academic-missing-work",
+      "category": "academic",
+      "title": "Incomplete or missing assignments",
+      "text": "Dear parents,\n\nI’d like to discuss {{name}}’s progress in [subject/unit]. At this time, [number] assignments—[names or dates]—are [incomplete/not submitted] according to [system/notebook]. This is making it harder to [skill, participation, or follow the current material]. I spoke with {{name}} to identify what is getting in the way, and we agreed on [concrete steps and deadlines]. At school, I’ll provide [support/recovery time]; at home, it may help to review the plan and remind {{name}} of the next deadline. We’ll monitor what is completed and adjust support if needed.\n\nSincerely,\n[Your name]"
+    },
+    {
+      "id": "academic-progress",
+      "category": "academic",
+      "title": "Academic progress check-in",
+      "text": "Dear parents,\n\nI’m reaching out with a concern about {{name}}’s progress in [subject/skill]. Across the last [weeks/tasks], I’ve observed [specific evidence, such as difficulty starting work, assessment results, or concepts not yet demonstrated]. {{name}} has received [support/intervention], and [describe what has helped and what remains difficult]. Our next plan includes [strategy, goal, and review date]. I’d like to hear what you are noticing at home and agree on consistent ways to support {{name}}. We can speak at [time option] or by email. Thank you for partnering with me to help {{name}} make steady progress.\n\nSincerely,\n[Your name]"
+    }
+  ],
+  "pt": [
+    {
+      "id": "good-perseverance",
+      "category": "good",
+      "title": "Persistência e progresso",
+      "text": "Prezados responsáveis,\n\nFico feliz em compartilhar que {{name}} demonstrou persistência durante [aula/tarefa] em [data]. Quando a primeira estratégia foi difícil, {{name}} [descreva o que observou: tentou outro caminho, pediu ajuda ou aplicou um comentário recebido] e avançou em [parte específica do trabalho]. Esse esforço ajudou {{name}} a desenvolver [habilidade] e manteve a turma focada. Reconhecemos essa atitude e conversamos sobre como usá-la novamente na próxima atividade. Se puder, celebre essa iniciativa em casa; continuarei incentivando {{name}} a aceitar desafios adequados e pedir apoio quando necessário. Obrigado pela parceria.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "good-kindness",
+      "category": "good",
+      "title": "Gentileza e inclusão",
+      "text": "Prezados responsáveis,\n\nQuero contar uma atitude positiva de {{name}} durante [aula/atividade] em [data]. Observei {{name}} [descreva a ação concreta: convidar alguém para participar, oferecer ajuda ou ouvir uma ideia diferente]. Isso contribuiu para que [impacto observado no grupo] e mostrou respeito e consideração pelos colegas. Conversamos sobre como pequenas atitudes ajudam todos a se sentirem bem-vindos e prontos para aprender. Agradeci a {{name}} por esse exemplo e espero que possamos continuar fortalecendo essa postura. Obrigado por conversar com {{name}} sobre a importância de tratar cada pessoa com cuidado.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "good-collaboration",
+      "category": "good",
+      "title": "Colaboração e liderança",
+      "text": "Prezados responsáveis,\n\nGostaria de reconhecer a contribuição de {{name}} em [projeto/atividade] em [data]. {{name}} [descreva comportamentos observados, como dividir materiais, explicar uma ideia com paciência ou ajudar o grupo a se organizar] e também abriu espaço para que os colegas participassem. Como resultado, o grupo [descreva o progresso ou resultado concreto]. Conversamos sobre como colaboração e liderança respeitosa apoiam a aprendizagem de todos. Foi muito bom ver {{name}} colocar essas habilidades em prática. Obrigado por incentivar essa responsabilidade e participação em casa.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-physical-safety",
+      "category": "behavior",
+      "title": "Agressão física ou preocupação de segurança",
+      "text": "Prezados responsáveis,\n\nEscrevo para informar sobre uma situação de segurança envolvendo {{name}} durante [atividade/local] em [data]. Observei [descreva objetivamente a ação física, sem interpretações ou rótulos]. Interrompi a situação, verifiquei se os alunos estavam seguros e segui [procedimento da escola/da turma]. Depois, conversei com {{name}} sobre o impacto da ação e sobre maneiras seguras de expressar frustração ou resolver um desacordo. O próximo passo será [apoio, conversa ou acompanhamento] em [prazo]. Por favor, converse com {{name}} sobre manter o espaço físico de todos seguro. Estou disponível para alinharmos o acompanhamento.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-phone",
+      "category": "behavior",
+      "title": "Uso de celular durante a aula",
+      "text": "Prezados responsáveis,\n\nQuero compartilhar uma situação ocorrida durante [aula/atividade] em [data]. Vi {{name}} usando o celular para [descreva o uso observado] enquanto a turma realizava [tarefa]. Relembrei o combinado sobre celulares e pedi que {{name}} guardasse o aparelho; [descreva a resposta e se a atividade foi retomada]. O uso do telefone interrompeu [impacto concreto na participação ou aprendizagem]. Vamos reforçar o procedimento para que {{name}} saiba quando o aparelho pode ser usado e onde deve ficar durante as aulas. Agradeço por conversar com {{name}} sobre esse combinado e estou à disposição para esclarecer dúvidas.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-class-disruption",
+      "category": "behavior",
+      "title": "Interrupções durante a aula",
+      "text": "Prezados responsáveis,\n\nDurante [aula] em [data], {{name}} interrompeu a atividade em vários momentos ao [descreva ações observáveis, como falar enquanto outra pessoa explicava ou chamar colegas fora de hora]. Fiz [número] lembretes e ofereci [estratégia/apoio] para ajudar {{name}} a participar no momento adequado. Depois de [orientação], {{name}} [descreva a resposta]. As interrupções afetaram [tempo de instrução, concentração ou participação do grupo]. Vamos praticar formas de pedir a palavra e manter a atenção durante explicações. Peço que conversem com {{name}} sobre esse objetivo; acompanharei o progresso na próxima aula.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-activity-disruption",
+      "category": "behavior",
+      "title": "Interrupção de uma atividade",
+      "text": "Prezados responsáveis,\n\nEstou entrando em contato sobre [atividade, laboratório, apresentação ou evento] em [data]. Durante a atividade, {{name}} [descreva o comportamento observado e quando ocorreu]. Dei [orientação/aviso] e expliquei como aquela ação interferia em [segurança, instruções ou participação do grupo]. {{name}} então [descreva a resposta e o que aconteceu em seguida]. Conversamos sobre seguir as instruções e ajudar a manter a atividade organizada para todos. Na próxima oportunidade, {{name}} deverá [próximo passo claro]. Por favor, reforcem essa expectativa em casa. Agradeço pela parceria e manterei vocês informados sobre o progresso.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-disrespect",
+      "category": "behavior",
+      "title": "Comunicação desrespeitosa",
+      "text": "Prezados responsáveis,\n\nEscrevo sobre uma interação durante [aula/atividade] em [data]. Quando [contexto breve], {{name}} [registre as palavras ou ações específicas, se apropriado, sem usar rótulos gerais]. Expliquei como a comunicação afetou [colega, funcionário ou atividade] e dei a {{name}} a oportunidade de responder. Depois, {{name}} [descreva a resposta, reflexão ou reparação]. Revimos formas respeitosas de discordar, pedir ajuda e resolver frustrações. O próximo passo será [conversa, reflexão ou acompanhamento]. Peço que conversem com {{name}} sobre usar uma linguagem respeitosa mesmo em situações difíceis. Estou disponível para conversarmos juntos sobre como apoiar esse objetivo.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-computer",
+      "category": "behavior",
+      "title": "Computador usado sem autorização",
+      "text": "Prezados responsáveis,\n\nDurante [aula/atividade] em [data], observei {{name}} usando o computador para [site, aplicativo ou ação observada] sem a autorização necessária para essa tarefa. Relembrei a instrução e pedi que {{name}} voltasse ao recurso aprovado. {{name}} [descreva a resposta e se o trabalho foi retomado]. Conversamos sobre segurança digital, uso responsável do equipamento e a importância de seguir as instruções antes de abrir outros sites ou programas. Na próxima atividade, {{name}} deverá [expectativa específica]. Por favor, reforcem esse combinado em casa. Continuarei acompanhando o uso do dispositivo e oferecendo orientação quando necessário.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "behavior-peer-comments",
+      "category": "behavior",
+      "title": "Comentários que afetaram um colega",
+      "text": "Prezados responsáveis,\n\nQuero informar sobre uma interação entre colegas durante [aula/intervalo/atividade] em [data]. Ouvi {{name}} dizer [descreva a fala específica ou o tipo de comentário] para [um colega/o grupo]. Intervim, conversei com os alunos envolvidos e reforcei a expectativa de que todos participem sem provocações ou comentários direcionados. {{name}} [descreva a resposta, reflexão ou ação de reparação]. Vamos acompanhar as próximas interações e praticar maneiras adequadas de expressar opiniões ou resolver conflitos. Peço que conversem com {{name}} sobre o efeito das palavras nos colegas. Estou à disposição para alinharmos o apoio.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "academic-integrity",
+      "category": "academic",
+      "title": "Integridade acadêmica e possível cola",
+      "text": "Prezados responsáveis,\n\nEscrevo sobre uma possível situação de cola ou ajuda não autorizada relacionada à [avaliação/tarefa] de {{name}} em [data]. Durante [parte específica], observei [fato objetivo, como abrir um site não autorizado ou consultar o trabalho de outro aluno]. Conversei com {{name}} em particular e pedi que explicasse o que aconteceu. Estamos verificando as informações e seguiremos [procedimento da escola/turma]; este contato registra uma preocupação, não uma conclusão final. Revimos a expectativa de realizar o próprio trabalho e como pedir ajuda de forma adequada. Por favor, converse com {{name}} sobre honestidade acadêmica. Entrarei em contato após [próxima etapa/data] e estou disponível para conversarmos.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "academic-missing-work",
+      "category": "academic",
+      "title": "Tarefas incompletas ou não entregues",
+      "text": "Prezados responsáveis,\n\nQuero conversar sobre o andamento de {{name}} em [disciplina/unidade]. No momento, [número] atividades — [nomes ou datas] — estão [incompletas/não entregues], conforme o registro de [sistema/caderno]. Isso está dificultando [habilidade, participação ou acompanhamento do conteúdo]. Conversei com {{name}} para identificar o que está impedindo a conclusão e combinamos [etapas concretas e prazos]. Na escola, oferecerei [apoio/tempo de recuperação]; em casa, pode ajudar revisar o plano e lembrar {{name}} do próximo prazo. Vamos acompanhar juntos o que for concluído e ajustar o apoio se necessário.\n\nAtenciosamente,\n[Seu nome]"
+    },
+    {
+      "id": "academic-progress",
+      "category": "academic",
+      "title": "Acompanhamento do progresso acadêmico",
+      "text": "Prezados responsáveis,\n\nEstou entrando em contato para compartilhar uma preocupação sobre o progresso de {{name}} em [disciplina/habilidade]. Nas últimas [semanas/atividades], observei [evidências específicas, como dificuldade em iniciar tarefas, resultados de avaliações ou conceitos ainda não demonstrados]. {{name}} já recebeu [apoio ou intervenção] e [descreva o que ajudou e o que ainda é difícil]. O próximo plano inclui [estratégia, meta e data de revisão]. Gostaria de ouvir o que vocês observam em casa e combinar maneiras consistentes de apoiar {{name}}. Podemos conversar em [opção de horário] ou por e-mail. Obrigado pela parceria.\n\nAtenciosamente,\n[Seu nome]"
+    }
+  ]
+}
